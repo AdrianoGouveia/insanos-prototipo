@@ -38,15 +38,15 @@ body { background: var(--pagina); color: var(--texto); font-family: var(--fonte)
 </div>
 <div style="display: flex; align-items: center; gap: 8px">
 <a href="#sos" style="height: 44px; padding: 0 14px; border-radius: 22px; background: #D93025; color: #FFFFFF; font-family: Anton, sans-serif; font-size: 15px; letter-spacing: 1px; text-decoration: none; display: flex; align-items: center">SOS</a>
-<button aria-label="Notificações" style="width: 44px; height: 44px; border-radius: 22px; border: 1px solid #2A2A2E; background: #17171A; color: #F4F2EE; display: flex; align-items: center; justify-content: center">
+<a href="#avisos" aria-label="Avisos" style="width: 44px; height: 44px; border-radius: 22px; border: 1px solid #F7C500; background: #17171A; color: #F7C500; display: flex; align-items: center; justify-content: center; box-sizing: border-box; text-decoration: none">
 <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 16V11a6 6 0 0 1 12 0v5l2 2H4z"></path><path d="M10 21h4"></path></svg>
-</button>
+</a>
 </div>
 </header>
 <div style="display: flex; gap: 8px; padding: 4px 16px 12px">
 <button style="height: 44px; padding: 0 16px; border-radius: 22px; border: 1px solid #F4F2EE; background: #F4F2EE; color: #0B0B0C; font-family: Barlow, sans-serif; font-size: 14px; font-weight: 600">Tudo</button>
-<button style="height: 44px; padding: 0 16px; border-radius: 22px; border: 1px solid #2A2A2E; background: #17171A; color: #F4F2EE; font-family: Barlow, sans-serif; font-size: 14px; font-weight: 500">Nacional</button>
-<button style="height: 44px; padding: 0 16px; border-radius: 22px; border: 1px solid #2A2A2E; background: #17171A; color: #F4F2EE; font-family: Barlow, sans-serif; font-size: 14px; font-weight: 500">Regional</button>
+<button style="height: 44px; padding: 0 16px; border-radius: 22px; border: 1px solid #2A2A2E; background: #17171A; color: #F4F2EE; font-family: Barlow, sans-serif; font-size: 14px; font-weight: 500">Seguindo</button>
+<button style="height: 44px; padding: 0 16px; border-radius: 22px; border: 1px solid #2A2A2E; background: #17171A; color: #F4F2EE; font-family: Barlow, sans-serif; font-size: 14px; font-weight: 500">Oficial</button>
 <button style="height: 44px; padding: 0 16px; border-radius: 22px; border: 1px solid #2A2A2E; background: #17171A; color: #F4F2EE; font-family: Barlow, sans-serif; font-size: 14px; font-weight: 500">Divisão</button>
 </div>
 <main style="flex: 1; min-height: 0; overflow-y: auto; display: flex; flex-direction: column; gap: 12px; padding: 0 16px">
@@ -75,14 +75,22 @@ Comentar</button>
 </article>
 <article style="background: #17171A; border: 1px solid #2A2A2E; border-radius: 16px; padding: 12px 14px; display: flex; flex-direction: column; gap: 10px">
 <div style="display: flex; align-items: center; gap: 10px">
-<div style="width: 40px; height: 40px; border-radius: 20px; background: #2A2A2E; display: flex; align-items: center; justify-content: center; font-family: Anton, sans-serif; font-weight: 400; font-size: 15px">GC</div>
+<div style="width: 40px; height: 40px; border-radius: 20px; background: #2A2A2E; display: flex; align-items: center; justify-content: center; font-family: Anton, sans-serif; font-weight: 400; font-size: 15px">TR</div>
 <div style="display: flex; flex-direction: column; gap: 2px">
-<span style="font-size: 14px; font-weight: 600">Divisão Goiânia Centro</span>
-<span style="font-size: 12px; color: #A3A09A">Ação social · ontem</span>
+<a href="#perfil" style="font-size: 14px; font-weight: 600; color: #F4F2EE; text-decoration: none">Trovão <span style="font-weight: 500; color: #A3A09A">· Full · Goiânia Centro</span></a>
+<span style="font-size: 12px; color: #A3A09A">Você segue · ontem</span>
 </div>
 </div>
-<p style="margin: 0; font-size: 14px; line-height: 1.45">Doação de sangue no hemocentro concluída. Resultado lançado no contador do clube.</p>
-<a href="#doacoes" style="min-height: 44px; display: flex; align-items: center; font-size: 14px; font-weight: 600; color: #F7C500; text-decoration: none">Ver contador de doações</a>
+<p style="margin: 0; font-size: 14px; line-height: 1.45">Rolê de domingo até Pirenópolis com a divisão. Estrada limpa e tempo firme.</p>
+<div style="display: flex; align-items: center; gap: 8px">
+<button aria-label="Curtir, 34 curtidas, você curtiu" style="height: 44px; padding: 0 12px; border-radius: 10px; border: 1px solid #F7C500; background: transparent; color: #F7C500; font-family: Barlow, sans-serif; font-size: 13px; font-weight: 700; display: flex; align-items: center; gap: 6px">
+<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7-4.400-7-10a4 4 0 0 1 7-2.500A4 4 0 0 1 19 10c0 5.600-7 10-7 10z"></path></svg>
+34</button>
+<button aria-label="Comentar, 6 comentários" style="height: 44px; padding: 0 12px; border-radius: 10px; border: 1px solid #2A2A2E; background: transparent; color: #F4F2EE; font-family: Barlow, sans-serif; font-size: 13px; display: flex; align-items: center; gap: 6px">
+<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-8 8H5l-2 2V12a8 8 0 0 1 8-8h2a8 8 0 0 1 8 8z"></path></svg>
+6</button>
+<span style="flex: 1; font-size: 12px; color: #A3A09A; text-align: right">Curtido por Corvo, Lobo e outros</span>
+</div>
 </article>
 <article style="background: #121214; border: 1px dashed #3A3A40; border-radius: 16px; padding: 12px 14px; display: flex; flex-direction: column; gap: 6px">
 <span style="font-size: 11px; font-weight: 700; letter-spacing: 0.6px; text-transform: uppercase; color: #A3A09A">Anúncio · Clube de benefícios</span>
@@ -1291,31 +1299,31 @@ Mais</a>
 <a href="#chat" style="height: 44px; padding: 0 12px; border-radius: 10px; background: #F7C500; color: #070707; font-size: 13px; font-weight: 700; text-decoration: none; display: flex; align-items: center">Parabenizar</a>
 </section>
 <span style="font-size: 11px; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; color: #A3A09A">Diretoria</span>
-<a href="#chat" style="display: flex; align-items: center; gap: 12px; min-height: 52px; text-decoration: none">
+<a href="#perfil" style="display: flex; align-items: center; gap: 12px; min-height: 52px; text-decoration: none">
 <div style="width: 44px; height: 44px; border-radius: 22px; background: #232327; border: 1px solid #3A3A40; box-sizing: border-box; display: flex; align-items: center; justify-content: center; font-size: 9px; color: #A3A09A; flex-shrink: 0">[FOTO]</div>
 <div style="flex: 1; display: flex; flex-direction: column; gap: 2px">
 <span style="font-size: 15px; font-weight: 600">Corvo <span style="font-size: 12px; font-weight: 500; color: #A3A09A">· colete [Nº]</span></span>
 <span style="font-size: 12px; color: #A3A09A">Diretor de Divisão · Grau VI · desde [DATA]</span>
 </div>
-<span style="font-size: 12px; font-weight: 600; color: #F7C500">Mensagem</span>
+<span style="font-size: 12px; font-weight: 600; color: #F7C500">Ver perfil</span>
 </a>
 <span style="font-size: 11px; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; color: #A3A09A">Full · Grau VIII</span>
-<a href="#chat" style="display: flex; align-items: center; gap: 12px; min-height: 52px; text-decoration: none">
+<a href="#perfil" style="display: flex; align-items: center; gap: 12px; min-height: 52px; text-decoration: none">
 <div style="width: 44px; height: 44px; border-radius: 22px; background: #232327; border: 1px solid #3A3A40; box-sizing: border-box; display: flex; align-items: center; justify-content: center; font-size: 9px; color: #A3A09A; flex-shrink: 0">[FOTO]</div>
 <div style="flex: 1; display: flex; flex-direction: column; gap: 2px">
 <span style="font-size: 15px; font-weight: 600">Trovão <span style="font-size: 12px; font-weight: 500; color: #A3A09A">· colete [Nº]</span></span>
 <span style="font-size: 12px; color: #A3A09A">Full · desde [DATA] · Bonde [Nº]</span>
 </div>
-<span style="font-size: 12px; font-weight: 600; color: #F7C500">Mensagem</span>
+<span style="font-size: 12px; font-weight: 600; color: #F7C500">Ver perfil</span>
 </a>
 <span style="font-size: 11px; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; color: #A3A09A">Meio · Grau IX</span>
-<a href="#chat" style="display: flex; align-items: center; gap: 12px; min-height: 52px; text-decoration: none">
+<a href="#perfil" style="display: flex; align-items: center; gap: 12px; min-height: 52px; text-decoration: none">
 <div style="width: 44px; height: 44px; border-radius: 22px; background: #232327; border: 1px solid #3A3A40; box-sizing: border-box; display: flex; align-items: center; justify-content: center; font-size: 9px; color: #A3A09A; flex-shrink: 0">[FOTO]</div>
 <div style="flex: 1; display: flex; flex-direction: column; gap: 2px">
 <span style="font-size: 15px; font-weight: 600">Lobo <span style="font-size: 12px; font-weight: 500; color: #A3A09A">· colete [Nº]</span></span>
 <span style="font-size: 12px; color: #A3A09A">Meio · desde [DATA] · Bonde [Nº]</span>
 </div>
-<span style="font-size: 12px; font-weight: 600; color: #F7C500">Mensagem</span>
+<span style="font-size: 12px; font-weight: 600; color: #F7C500">Ver perfil</span>
 </a>
 <span style="font-size: 11px; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; color: #A3A09A">PP · Grau X</span>
 <a href="#carteirinha" style="display: flex; align-items: center; gap: 12px; min-height: 52px; text-decoration: none">
@@ -1594,10 +1602,190 @@ Mais</a>
 </nav>
 </div>
 </section>
+<section class="tela" id="tela-perfil" hidden>
+<div style="width: 100%; height: 100%; box-sizing: border-box; display: flex; flex-direction: column; background: #0B0B0C; color: #F4F2EE; font-family: Barlow, system-ui, sans-serif; overflow: hidden">
+<header style="display: flex; align-items: center; gap: 8px; padding: 10px 12px">
+<a href="#feed" aria-label="Voltar para o feed" style="width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; text-decoration: none">
+<svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"></path></svg>
+</a>
+<span style="font-family: Sancreek, serif; font-weight: 400; font-size: 26px; letter-spacing: 1px; text-transform: uppercase">Perfil</span>
+</header>
+<main style="flex: 1; min-height: 0; overflow-y: auto; display: flex; flex-direction: column; gap: 12px; padding: 0 16px">
+<div style="display: flex; align-items: center; gap: 14px">
+<div style="width: 84px; height: 84px; border-radius: 42px; background: #232327; border: 2px solid #F7C500; box-sizing: border-box; display: flex; align-items: center; justify-content: center; font-size: 11px; color: #A3A09A; flex-shrink: 0">[FOTO]</div>
+<div style="flex: 1; display: flex; flex-direction: column; gap: 3px">
+<span style="font-family: Anton, sans-serif; font-weight: 400; font-size: 28px; text-transform: uppercase; line-height: 1">Trovão</span>
+<span style="font-size: 13px; font-weight: 600">Full · Grau VIII</span>
+<span style="font-size: 12px; color: #A3A09A">Divisão Goiânia Centro · desde [ANO]</span>
+<span style="align-self: flex-start; font-size: 11px; font-weight: 700; color: #F7C500; border: 1px solid #F7C500; border-radius: 6px; padding: 2px 6px">Segue você</span>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; text-align: center">
+<div style="display: flex; flex-direction: column; gap: 2px">
+<span style="font-family: Anton, sans-serif; font-weight: 400; font-size: 22px">18</span>
+<span style="font-size: 12px; color: #A3A09A">publicações</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 2px">
+<span style="font-family: Anton, sans-serif; font-weight: 400; font-size: 22px">214</span>
+<span style="font-size: 12px; color: #A3A09A">seguidores</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 2px">
+<span style="font-family: Anton, sans-serif; font-weight: 400; font-size: 22px">96</span>
+<span style="font-size: 12px; color: #A3A09A">seguindo</span>
+</div>
+</div>
+<div style="display: flex; gap: 10px">
+<button style="flex: 1; height: 48px; border-radius: 12px; border: none; background: #F7C500; color: #070707; font-family: Barlow, sans-serif; font-size: 15px; font-weight: 700">Seguir de volta</button>
+<a href="#chat" style="flex: 1; height: 48px; border-radius: 12px; border: 1px solid #F4F2EE; box-sizing: border-box; font-size: 15px; font-weight: 600; text-decoration: none; display: flex; align-items: center; justify-content: center">Mensagem</a>
+</div>
+<section style="background: #17171A; border: 1px solid #2A2A2E; border-radius: 16px; padding: 12px 14px; display: flex; flex-direction: column; gap: 8px">
+<div style="display: flex; justify-content: space-between; gap: 10px; font-size: 13px">
+<span style="color: #A3A09A">Moto</span>
+<span style="font-weight: 600">[MARCA E MODELO]</span>
+</div>
+<div style="display: flex; justify-content: space-between; gap: 10px; font-size: 13px">
+<span style="color: #A3A09A">Negócio no clube de benefícios</span>
+<a href="#beneficios" style="font-weight: 600; color: #F7C500; text-decoration: none">[LOJA DE PNEUS]</a>
+</div>
+<div style="display: flex; justify-content: space-between; gap: 10px; font-size: 13px">
+<span style="color: #A3A09A">Em comum</span>
+<span style="font-weight: 600">Mesma divisão · [Nº] eventos juntos</span>
+</div>
+<div style="display: flex; align-items: center; gap: 8px; padding-top: 4px">
+<div role="img" aria-label="Insígnia Doador de sangue" style="width: 36px; height: 36px; border-radius: 18px; background: #F7C500; color: #070707; display: flex; align-items: center; justify-content: center">
+<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s6 6.500 6 11a6 6 0 0 1-12 0c0-4.500 6-11 6-11z"></path></svg>
+</div>
+<div role="img" aria-label="Insígnia Estradeiro" style="width: 36px; height: 36px; border-radius: 18px; background: #F7C500; color: #070707; display: flex; align-items: center; justify-content: center">
+<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21l2-18M15 21L13 3M12 7v2M12 12v2M12 17v2"></path></svg>
+</div>
+<div role="img" aria-label="Insígnia Encontro Nacional" style="width: 36px; height: 36px; border-radius: 18px; background: #F7C500; color: #070707; display: flex; align-items: center; justify-content: center">
+<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l3 6 6 1-4.500 4.500L18 21l-6-3-6 3 1.500-6.500L3 10l6-1z"></path></svg>
+</div>
+<span style="font-size: 12px; color: #A3A09A">3 insígnias</span>
+</div>
+</section>
+<span style="font-size: 11px; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; color: #A3A09A">Publicações</span>
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px">
+<div style="height: 104px; border-radius: 8px; background: #232327; display: flex; align-items: center; justify-content: center; font-size: 11px; color: #A3A09A">[FOTO]</div>
+<div style="height: 104px; border-radius: 8px; background: #232327; display: flex; align-items: center; justify-content: center; font-size: 11px; color: #A3A09A">[FOTO]</div>
+<div style="height: 104px; border-radius: 8px; background: #232327; display: flex; align-items: center; justify-content: center; font-size: 11px; color: #A3A09A">[FOTO]</div>
+<div style="height: 104px; border-radius: 8px; background: #232327; display: flex; align-items: center; justify-content: center; font-size: 11px; color: #A3A09A">[FOTO]</div>
+<div style="height: 104px; border-radius: 8px; background: #232327; display: flex; align-items: center; justify-content: center; font-size: 11px; color: #A3A09A">[FOTO]</div>
+<div style="height: 104px; border-radius: 8px; background: #232327; display: flex; align-items: center; justify-content: center; font-size: 11px; color: #A3A09A">[FOTO]</div>
+</div>
+</main>
+<nav aria-label="Navegação principal" style="display: flex; border-top: 1px solid #2A2A2E; background: #121214; padding: 6px 4px 10px; margin-top: 12px">
+<a href="#feed" style="flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 6px 0; min-height: 44px; font-size: 11px; font-weight: 600; text-decoration: none; color: #F7C500">
+<svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"></path></svg>
+Feed</a>
+<a href="#conversas" style="flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 6px 0; min-height: 44px; font-size: 11px; font-weight: 600; text-decoration: none; color: #A3A09A">
+<svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-8 8H5l-2 2V12a8 8 0 0 1 8-8h2a8 8 0 0 1 8 8z"></path></svg>
+Conversas</a>
+<a href="#veiculos" style="flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 6px 0; min-height: 44px; font-size: 11px; font-weight: 600; text-decoration: none; color: #A3A09A">
+<svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="5.500" cy="16" r="3.500"></circle><circle cx="18.500" cy="16" r="3.500"></circle><path d="M5.500 16l4-7h5l4 7M9.500 9L8 6H5.500M14.500 9l2-3h2.500"></path></svg>
+Veículos</a>
+<a href="#beneficios" style="flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 6px 0; min-height: 44px; font-size: 11px; font-weight: 600; text-decoration: none; color: #A3A09A">
+<svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12V4h8l10 10-8 8z"></path><circle cx="7.500" cy="8.500" r="1.200"></circle></svg>
+Benefícios</a>
+<a href="#mais" style="flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 6px 0; min-height: 44px; font-size: 11px; font-weight: 600; text-decoration: none; color: #A3A09A">
+<svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h16"></path></svg>
+Mais</a>
+</nav>
+</div>
+</section>
+<section class="tela" id="tela-avisos" hidden>
+<div style="width: 100%; height: 100%; box-sizing: border-box; display: flex; flex-direction: column; background: #0B0B0C; color: #F4F2EE; font-family: Barlow, system-ui, sans-serif; overflow: hidden">
+<header style="display: flex; align-items: center; gap: 8px; padding: 10px 12px">
+<a href="#feed" aria-label="Voltar para o feed" style="width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; text-decoration: none">
+<svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"></path></svg>
+</a>
+<span style="font-family: Sancreek, serif; font-weight: 400; font-size: 26px; letter-spacing: 1px; text-transform: uppercase">Avisos</span>
+</header>
+<main style="flex: 1; min-height: 0; overflow-y: auto; display: flex; flex-direction: column; gap: 4px; padding: 0 16px">
+<span style="padding: 4px 0; font-size: 11px; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; color: #A3A09A">Hoje</span>
+<div style="display: flex; align-items: center; gap: 12px; min-height: 64px; border-bottom: 1px solid #2A2A2E">
+<div style="width: 44px; height: 44px; border-radius: 22px; background: #232327; border: 1px solid #3A3A40; box-sizing: border-box; flex-shrink: 0"></div>
+<div style="flex: 1; display: flex; flex-direction: column; gap: 2px">
+<span style="font-size: 14px"><a href="#perfil" style="font-weight: 700; text-decoration: none">Trovão</a> começou a seguir você</span>
+<span style="font-size: 12px; color: #A3A09A">Full · Divisão Goiânia Centro · há 10 min</span>
+</div>
+<a href="#perfil" style="height: 44px; padding: 0 12px; border-radius: 10px; background: #F7C500; color: #070707; font-size: 13px; font-weight: 700; text-decoration: none; display: flex; align-items: center; white-space: nowrap">Seguir de volta</a>
+</div>
+<div style="display: flex; align-items: center; gap: 12px; min-height: 64px; border-bottom: 1px solid #2A2A2E">
+<div style="width: 44px; height: 44px; border-radius: 22px; background: #232327; border: 1px solid #3A3A40; box-sizing: border-box; flex-shrink: 0"></div>
+<div style="flex: 1; display: flex; flex-direction: column; gap: 2px">
+<span style="font-size: 14px"><strong>Corvo</strong> e outros 8 curtiram sua publicação</span>
+<span style="font-size: 12px; color: #A3A09A">há 1 h</span>
+</div>
+<div style="width: 44px; height: 44px; border-radius: 8px; background: #232327; display: flex; align-items: center; justify-content: center; font-size: 9px; color: #A3A09A">[FOTO]</div>
+</div>
+<div style="display: flex; align-items: center; gap: 12px; min-height: 64px; border-bottom: 1px solid #2A2A2E">
+<div style="width: 44px; height: 44px; border-radius: 22px; background: #232327; border: 1px solid #3A3A40; box-sizing: border-box; flex-shrink: 0"></div>
+<div style="flex: 1; display: flex; flex-direction: column; gap: 2px">
+<span style="font-size: 14px"><strong>Lobo</strong> comentou: bora de novo no próximo</span>
+<span style="font-size: 12px; color: #A3A09A">há 2 h</span>
+</div>
+<button style="height: 44px; padding: 0 12px; border-radius: 10px; border: 1px solid #F4F2EE; background: transparent; color: #F4F2EE; font-family: Barlow, sans-serif; font-size: 13px; font-weight: 600">Responder</button>
+</div>
+<div style="display: flex; align-items: center; gap: 12px; min-height: 64px; border-bottom: 1px solid #2A2A2E">
+<div style="width: 44px; height: 44px; border-radius: 22px; background: #F7C500; color: #070707; display: flex; align-items: center; justify-content: center; font-family: Anton, sans-serif; font-size: 15px; flex-shrink: 0">CN</div>
+<div style="flex: 1; display: flex; flex-direction: column; gap: 2px">
+<span style="font-size: 14px"><strong>Comando Nacional</strong> publicou um comunicado</span>
+<span style="font-size: 12px; color: #A3A09A">Encontro Nacional confirmado · há 2 h</span>
+</div>
+<a href="#evento" style="height: 44px; padding: 0 12px; border-radius: 10px; border: 1px solid #F4F2EE; box-sizing: border-box; font-size: 13px; font-weight: 600; text-decoration: none; display: flex; align-items: center">Ver</a>
+</div>
+<span style="padding: 12px 0 4px; font-size: 11px; font-weight: 700; letter-spacing: 0.8px; text-transform: uppercase; color: #A3A09A">Esta semana</span>
+<div style="display: flex; align-items: center; gap: 12px; min-height: 64px; border-bottom: 1px solid #2A2A2E">
+<div style="width: 44px; height: 44px; border-radius: 22px; background: #F7C500; color: #070707; display: flex; align-items: center; justify-content: center; flex-shrink: 0">
+<svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s6 6.500 6 11a6 6 0 0 1-12 0c0-4.500 6-11 6-11z"></path></svg>
+</div>
+<div style="flex: 1; display: flex; flex-direction: column; gap: 2px">
+<span style="font-size: 14px">Você ganhou a insígnia <strong>Doador de sangue</strong></span>
+<span style="font-size: 12px; color: #A3A09A">Ação do hemocentro · terça</span>
+</div>
+<a href="#jornada" style="height: 44px; padding: 0 12px; border-radius: 10px; border: 1px solid #F4F2EE; box-sizing: border-box; font-size: 13px; font-weight: 600; text-decoration: none; display: flex; align-items: center">Ver</a>
+</div>
+<div style="display: flex; align-items: center; gap: 12px; min-height: 64px; border-bottom: 1px solid #2A2A2E">
+<div style="width: 44px; height: 44px; border-radius: 22px; background: #232327; border: 1px solid #3A3A40; box-sizing: border-box; flex-shrink: 0"></div>
+<div style="flex: 1; display: flex; flex-direction: column; gap: 2px">
+<span style="font-size: 14px"><strong>Corvo</strong> marcou você em uma foto</span>
+<span style="font-size: 12px; color: #A3A09A">Reunião da divisão · segunda</span>
+</div>
+<div style="width: 44px; height: 44px; border-radius: 8px; background: #232327; display: flex; align-items: center; justify-content: center; font-size: 9px; color: #A3A09A">[FOTO]</div>
+</div>
+<div style="display: flex; align-items: center; gap: 12px; min-height: 64px">
+<div style="width: 44px; height: 44px; border-radius: 22px; background: #232327; border: 1px solid #3A3A40; box-sizing: border-box; display: flex; align-items: center; justify-content: center; font-family: Anton, sans-serif; font-size: 15px; flex-shrink: 0">GC</div>
+<div style="flex: 1; display: flex; flex-direction: column; gap: 2px">
+<span style="font-size: 14px">A vaquinha <strong>Apoio ao Lobo</strong> foi aprovada</span>
+<span style="font-size: 12px; color: #A3A09A">Divisão Goiânia Centro · domingo</span>
+</div>
+<a href="#vaquinha" style="height: 44px; padding: 0 12px; border-radius: 10px; border: 1px solid #F4F2EE; box-sizing: border-box; font-size: 13px; font-weight: 600; text-decoration: none; display: flex; align-items: center">Ver</a>
+</div>
+</main>
+<nav aria-label="Navegação principal" style="display: flex; border-top: 1px solid #2A2A2E; background: #121214; padding: 6px 4px 10px; margin-top: 12px">
+<a href="#feed" style="flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 6px 0; min-height: 44px; font-size: 11px; font-weight: 600; text-decoration: none; color: #F7C500">
+<svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"></path></svg>
+Feed</a>
+<a href="#conversas" style="flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 6px 0; min-height: 44px; font-size: 11px; font-weight: 600; text-decoration: none; color: #A3A09A">
+<svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-8 8H5l-2 2V12a8 8 0 0 1 8-8h2a8 8 0 0 1 8 8z"></path></svg>
+Conversas</a>
+<a href="#veiculos" style="flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 6px 0; min-height: 44px; font-size: 11px; font-weight: 600; text-decoration: none; color: #A3A09A">
+<svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="5.500" cy="16" r="3.500"></circle><circle cx="18.500" cy="16" r="3.500"></circle><path d="M5.500 16l4-7h5l4 7M9.500 9L8 6H5.500M14.500 9l2-3h2.500"></path></svg>
+Veículos</a>
+<a href="#beneficios" style="flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 6px 0; min-height: 44px; font-size: 11px; font-weight: 600; text-decoration: none; color: #A3A09A">
+<svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12V4h8l10 10-8 8z"></path><circle cx="7.500" cy="8.500" r="1.200"></circle></svg>
+Benefícios</a>
+<a href="#mais" style="flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 6px 0; min-height: 44px; font-size: 11px; font-weight: 600; text-decoration: none; color: #A3A09A">
+<svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h16"></path></svg>
+Mais</a>
+</nav>
+</div>
+</section>
 </div>
 <script>
 (function () {
-  var nomes = ["feed", "conversas", "chat", "carteirinha", "beneficios", "doacoes", "evento", "checkin", "sos", "jornada", "vaquinha", "veiculos", "mais", "diretoria", "comando", "integrantes", "estrutura", "mensalidade", "documentos"];
+  var nomes = ["feed", "conversas", "chat", "carteirinha", "beneficios", "doacoes", "evento", "checkin", "sos", "jornada", "vaquinha", "veiculos", "mais", "diretoria", "comando", "integrantes", "estrutura", "mensalidade", "documentos", "perfil", "avisos"];
   function mostrar() {
     var h = (location.hash || "").slice(1);
     if (nomes.indexOf(h) < 0) h = "feed";
